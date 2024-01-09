@@ -1,5 +1,7 @@
-const Card = ({data}) => {
-  console.log("inside card component:",data)
+import "../styles/card.css";
+
+const Card = ({ data }) => {
+  console.log("inside card component:", data);
   return (
     <div>
       <p>{data.title}</p>
