@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import "../styles/cards.css"
 
 const DummyData = [
     {title: "“Аригтай хадгалъя” аяны супер урамшууллын эзэд тодорлоо",
