@@ -1,9 +1,17 @@
-import {Button, TextField, Card} from '@/components'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+// import { Button, TextField, Card } from "@/components";
+// import Link from "next/link";
+// import styles from "@/styles/pages/Home.module.css";
+import { Tailwind } from "./tailwindcss";
 
 export default function Home() {
   return (
+    <div className="{styles.container}">
+      {/* <h1 className="{styles.title}">Home</h1>
+      <Link href={"/abc"}>Move To Abc</Link>
+      <Button />
+      <TextField /> */}
+      <Tailwind />
+      {/* <Card text="card text" /> */}
+    </div>
+  );
+}
